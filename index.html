@@ -5,94 +5,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practical 9</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>Practical-8</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
-    <div class="navigation">
-        <input type="checkbox" id="chk">
-        <label for="chk" class="show-btn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <ul class="menu">
-            <li><a href="#background">Home</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#technology">Technologies</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <label for="chk" class="hide-btn">
-                <i class="fa fa-times"></i>
+    <div id="container">
+        <div id="header">
+            <input type="checkbox" id="chk" />
+            <label for="chk" class="show-btn">
+                <i class="fa fa-bars"></i>
             </label>
-        </ul>
-    </div>
-    <div id="background"><br><br>
-        <img src="./background.jpg" width="100%">
-        <div class="top-left">Practical 9</div>
-    </div>
-    <div id="team">
-        <p style="text-align: center; font-size: 40px; margin-bottom: 40px;"><br><br>Team Members</p>
-        <div class="team_img">
-            <div class="team" id="team1"><img src="./team2.png" width="100%"></div>
-            <div class="team" id="team2"><img src="./team2.png" width="100%"></div>
-            <div class="team" id="team3"><img src="./team2.png" width="100%"></div>
-            <div class="team" id="team4"><img src="./team2.png" width="100%"></div>
+            <ul class="menu">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#circle-container">Team</a></li>
+                <li><a href="#Technologies">Technologies</a></li>
+                <li><a href="#contact">contact</a></li>
+
+                <label for="chk" class="hide-btn">
+                    <i class="fa fa-times"></i>
+                </label>
+            </ul>
         </div>
-    </div>
-    <div id="about">
-        <p style="text-align: center; font-size: 40px; margin-bottom: 40px; margin-top: 70px;"><br><br>About Us</p>
-        <div class="sec2content">
-            <div class="main">
-                <p style="font-size: 50px; margin-bottom: 10px;">About Project</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea autem odit molestias laboriosam quos minima deserunt, magni repudiandae repellat velit, itaque excepturi aliquam iure qui inventore aspernatur asperiores?
-                Excepturi obcaecati eos voluptatibus quam magnam quo commodi ex aspernatur ab? Ratione, perferendis enim, excepturi, mollitia reprehenderit illum eos aliquid aspernatur laudantium magnam nostrum ab. In totam alias autem perspiciatis asperiores
-                eos consequatur exercitationem consequuntur dicta sit, voluptate quam inventore ratione non rerum incidunt explicabo enim delectus quaerat provident aliquam. Obcaecati laborum pariatur adipisci repudiandae quia harum eos quidem consequuntur
-                aut at vero, alias voluptas reiciendis quisquam blanditiis doloremque deserunt cumque ratione error! Itaque mollitia cupiditate quod dolores reiciendis quaerat, possimus eveniet voluptatibus. Accusantium voluptas assumenda omnis aspernatur
-                nemo qui quia aliquam obcaecati ad non magnam, iure, ab repudiandae adipisci quam deleniti? In, fugit dicta deserunt qui explicabo molestiae, at quasi nulla voluptate accusantium atque voluptatum dolore consectetur accusamus, perferendis
-                assumenda quaerat doloremque neque architecto. Quia distinctio voluptas dolorem reiciendis voluptatum adipisci voluptate ex error natus debitis eos possimus in autem delectus totam eum quo, et reprehenderit minus ab obcaecati numquam dicta
-                suscipit a? Unde ex amet qui perferendis. Distinctio, consequatur illum! Ratione ex veritatis magnam facere, veniam dicta sapiente? Modi!
+        <a name="top"></a>
+
+        <div id="banner">
+            <h2>PRACTICAL - 9</h2>
+        </div>
+        <div id="circle-container">
+            <h1>Team Members</h1>
+            <div class="circle">
+                <img src="per1.png" alt="" />
             </div>
-            <div class="articles">
-                <div class="article" id="article1">Project-1</div>
-                <div class="article" id="article2">Project-2</div>
-                <div class="article" id="article3">Project-3</div>
+            <div class="circle">
+                <img src="p2.png" alt="" />
+            </div>
+            <div class="circle">
+                <img src="p3.png" alt="" />
+            </div>
+            <div class="circle">
+                <img src="p4.png" alt="" />
             </div>
         </div>
-    </div>
-    <div id="technology">
-        <p style="text-align: center; font-size: 40px; margin-bottom: 10px; margin-top: 70px;"><br><br>Technologies Used</p>
-        <div id="container">
-            <div class="box" id="box1"><img src="./html pic.png" width="270px" height="165px" style="margin: 15px; margin-bottom: 0px; border-radius: 10px;">
-                <P class="heading">Introduction to HTML</P>
-                <p class="content">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
-                <a href="./html.html" target="blank"><button>Read More</button></a>
+        <div id="sec2-container">
+            <a name="about"></a>
+            <h1>About Us</h1>
+            <div id="left-side">
+                <div class="left-content">
+                    <div id="left-p">
+                        <h2>About Projects</h2>
+                        <p>
+                            A project is a series of related a tasks which when they are carried in the
+                            correct order will lead to the completion of the project.
+                            Projects are temporary, generally resulting in the creation of a
+                            tangible product or outcome. This is as opposed to a programme,
+                            which is a series of interrelated projects that may be carried
+                            out repeatedly or continuously in order to support an ongoing
+                            process. For more information, see Project v programme. A
+                            construction project, sometimes just referred to as a ‘project’,
+                            is the organised process of constructing, renovating,
+                            refurbishing, etc. a building, structure or infrastructure. The
+                            project process typically starts with an overarching requirement
+                            which is developed through the creation of a brief, feasibility
+                            studies, option studies, design, financing and construction.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="box" id="box2"><img src="./css pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
-                <p class="heading">Introduction to CSS</p>
-                <p class="content">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-                <a href="./css.html" target="blank"><button>Read More</button></a>
+            <div id="right-side">
+                <div class="artical" id="p1">
+                    <h2>Project-1</h2>
+                </div>
+                <div class="artical" id="p2">
+                    <h2>Project-2</h2>
+                </div>
+                <div class="artical" id="p3">
+                    <h2>Project-3</h2>
+                </div>
             </div>
-            <div class="box" id="box3"><img src="./bootstrap pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
-                <p class="heading">Introduction to Bootstrap</p>
-                <p class="content">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, and other interface components.
+        </div>
+        <div id="grid-container">
+            <a name="Technologies"></a>
+            <h1>Technologies Used</h1>
+            <div class="grid">
+                <img src="html.png" alt="" />
+                <h4>Introduction to HTML</h4>
+                <p>
+                    The HyperText Markup Language, or HTML is the standard markup
+                    language for documents designed to be displayed in a web browser. It
+                    can be assisted by technologies such as Cascading Style Sheets (CSS)
+                    and scripting languages such as JavaScript.
                 </p>
-                <a href="./bootstrap.html" target="blank"><button>Read More</button></a>
+
+                <a href="https://hritik14sharma.github.io/Practical_5/html.html">Read More</a>
             </div>
-            <div class="box" id="box4"><img src="./java script pic.png" width="270px" height="165px" style="margin: 15px;margin-bottom: 0px; border-radius: 10px;">
-                <p class="heading">Introduction to JavaScript</p>
-                <p class="content">JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, and multi-paradigm. It has curly-bracket syntax, dynamic typing, and first-class
+            <div class="grid">
+                <img src="css.png" alt="" />
+                <h4>Introduction to CSS</h4>
+                <p>
+                    Cascading Style Sheets (CSS) is a style sheet language used for
+                    describing the presentation of a document written in a markup
+                    language such as HTML. CSS is a cornerstone technology of the World
+                    Wide Web, alongside HTML and JavaScript.
+                </p>
+
+                <a href="https://hritik14sharma.github.io/Practical_5/css.html">Read More</a>
+            </div>
+            <div class="grid">
+                <img src="js.png" alt="" />
+                <h4>Introduction to JavaScript</h4>
+                <p>
+                    JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a
+                    programming language that conforms to the ECMAScript
+                    specification.JavaScript is high-level, often just-in-time compiled,
+                    and multi-paradigm. It has curly-bracket syntax, and first-class
                     functions.
                 </p>
-                <a href="./javascript.html" target="blank"><button>Read More</button></a>
-            </div>
 
+                <a href="https://hritik14sharma.github.io/Practical_5/js.html">Read More</a>
+            </div>
+            <div class="grid">
+                <img src="boot.png" alt="" />
+                <h4>Introduction to Bootstrap</h4>
+                <p>
+                    Bootstrap is a free and open-source CSS framework directed at
+                    responsive, mobile-first front-end web development. It contains CSS-
+                    and (optionally) JavaScript-based design templates for typography,
+                    forms, buttons, navigation, and other interface components.
+                </p>
+
+                <a href="https://hritik14sharma.github.io/Practical_5/bootstrap.html">Read More</a>
+            </div>
         </div>
-    </div>
-    <div id="contact">
-        <p style="text-align: center; font-size: 40px; margin-bottom: 40px; margin-top: 70px;"><br><br>Contact Us</p>
-        <div class="contactus">
-            <p>Website Template for Practical-8 &copy;<a href="https://hritik14sharma.github.io/Practical_8/" target="blank">Github/hritik14sharma</a> </p>
-            <a class="top_pe_jana" href="#">Back to Top</a>
+        <a name="contact"></a>
+        <h1>Contact</h1>
+        <div id="footer">
+            <p>
+                <a href="#top">Back to top</a>
+            </p>
         </div>
     </div>
 </body>
